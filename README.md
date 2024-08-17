@@ -16,8 +16,24 @@ The external circuit uses...
 - 1x 10uF electrolytic capacitor for the power rails.
 - 1x 100uF tantalum capacitor for the power rails.
 - Optional 1x LED and appropriate current limiting resistor (1k ohm?) for debug.
+- 1x 8 or 4 ohm speaker.
 
 #Known bugs
 Currently, while in the "tap" speed setting mode, the metronome sound sometimes double triggers. I haven't investigated why yet.
+
+#Features
+- Plays a PCM sound effect of a mechanical metronome.
+- Speed can be set by either tapping a beat on the switch, or by using the rotary encoder for precise setting.
+- The rotary encoder supports fast and fine scrolling.
+- Visual indication of the beat is given on the display.
+- Visual indication can be in multiple styles with no implied time signature, or 2/2, 3/4 or 4/4.
+- Clicking the button once syncs the rhythm to the click.
+
+#Possible Future Features
+These features are planned, but not yet implemented
+- Battery voltage monitor
+- Non-uniform rhythms
+- Load / Save parameters to EEPROM
+- Disable visual beat.
 
 Phipli - August 2024
