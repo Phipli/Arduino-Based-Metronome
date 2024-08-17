@@ -1,4 +1,4 @@
-# Arduino-Based-Metronome
+# Arduino Based Metronome
 A metronome based on the Atmel ATMega328, written in the Arduino IDE. This code should be compatible with an Arduino Uno, but was designed for a custom circuit.
 
 The external circuit uses... 
@@ -18,10 +18,10 @@ The external circuit uses...
 - Optional 1x LED and appropriate current limiting resistor (1k ohm?) for debug.
 - 1x 8 or 4 ohm speaker.
 
-#Known bugs
+<b>Known bugs
 Currently, while in the "tap" speed setting mode, the metronome sound sometimes double triggers. I haven't investigated why yet.
 
-#Features
+<b>Features
 - Plays a PCM sound effect of a mechanical metronome.
 - Speed can be set by either tapping a beat on the switch, or by using the rotary encoder for precise setting.
 - The rotary encoder supports fast and fine scrolling.
@@ -29,7 +29,7 @@ Currently, while in the "tap" speed setting mode, the metronome sound sometimes 
 - Visual indication can be in multiple styles with no implied time signature, or 2/2, 3/4 or 4/4.
 - Clicking the button once syncs the rhythm to the click.
 
-#Possible Future Features
+<b>Possible Future Features
 These features are planned, but not yet implemented :
 - Battery voltage monitor.
 - Non-uniform rhythms.
