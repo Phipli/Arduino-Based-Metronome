@@ -30,10 +30,10 @@ Currently, while in the "tap" speed setting mode, the metronome sound sometimes 
 - Clicking the button once syncs the rhythm to the click.
 
 #Possible Future Features
-These features are planned, but not yet implemented
-- Battery voltage monitor
-- Non-uniform rhythms
-- Load / Save parameters to EEPROM
+These features are planned, but not yet implemented :
+- Battery voltage monitor.
+- Non-uniform rhythms.
+- Load / Save parameters to EEPROM.
 - Disable visual beat.
 
 Phipli - August 2024
