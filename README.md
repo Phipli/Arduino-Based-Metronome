@@ -19,9 +19,11 @@ The external circuit uses...
 - 1x 8 or 4 ohm speaker.
 
 <b>Known bugs</b>
+
 Currently, while in the "tap" speed setting mode, the metronome sound sometimes double triggers. I haven't investigated why yet.
 
 <b>Features</b>
+
 - Plays a PCM sound effect of a mechanical metronome.
 - Speed can be set by either tapping a beat on the switch, or by using the rotary encoder for precise setting.
 - The rotary encoder supports fast and fine scrolling.
@@ -30,6 +32,7 @@ Currently, while in the "tap" speed setting mode, the metronome sound sometimes 
 - Clicking the button once syncs the rhythm to the click.
 
 <b>Possible Future Features</b>
+
 These features are planned, but not yet implemented :
 - Battery voltage monitor.
 - Non-uniform rhythms.
