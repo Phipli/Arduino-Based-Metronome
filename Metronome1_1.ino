@@ -3,7 +3,8 @@
  *  
  *  Current Bugs
  *  - In Spd change mode, the metronome sound multitriggers.
- *  - 
+ *  - If you got to the LED menu, then change the speed, it says "LED" on the screen instead of "SPD"
+ *  - If I resync the metronome, it doesn't go to beat 1 in a bar.
  *  
  *  Things to implement
  *  - 
@@ -56,8 +57,8 @@ const unsigned char sample[] PROGMEM = {
 
 #define Button 8
 #define myLED 9
-#define rot1 A0
-#define rot2 A1
+#define rot1 A1
+#define rot2 A0
 
 #define startDelay 3000
 #define shortTime 100
@@ -289,6 +290,9 @@ void loop() {
       if( (millis()-lastClick)< 2000 ){
         mode = metroMode;
         updateDisplayArray(bpm);
+        txtC[0] = 's';
+        txtC[1] = 'p';
+        txtC[2] = 'd';
       }
     }
 
